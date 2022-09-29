@@ -661,7 +661,7 @@ a.back-to-top:focus {
 }
 .navbar-expand-lg .navbar-nav .nav-link {
   color: #fff;
-  font-size: 14px;
+  font-size: 20px;
   padding: 0 15px;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -972,6 +972,8 @@ a.back-to-top:focus {
 .ready-to-play {
   position: relative;
   height: 600px;
+  margin-top: 3%;
+  margin-bottom: 5%;
   width: 90%;
   margin-left: 5%;
   position: relative;
@@ -2032,6 +2034,11 @@ footer {
   margin-left: 5vw;
   margin-bottom: 50px;
 }
+#footer-logo2{
+  height: 40%;
+  margin-top: 5%;
+  width: 30%;
+}
  /* ==========================================================================
    Countdown Style Start
    ==========================================================================  */
@@ -2259,6 +2266,9 @@ footer {
   position: relative;
   z-index: -1;
 }
+.image{
+  border-radius: 20px;
+}
 #hero-area .overlay {
   position: absolute;
   width: 100%;
@@ -2268,10 +2278,13 @@ footer {
   background: rgba(0, 0, 0, 0.1);
   background-color: linear-gradient(45deg, #ffffff 0, #000 100%);
 }
+.img-fluid{
+  border-radius: 20px;
+}
 img#nav-logo {
-  width: 10%;
-  height: 15%;
-  margin-left: 15%;
+  width: 20%;
+  height: 24%;
+  margin-left: -15%;
   padding-top: 5px;
 }
 #hero-area .contents {
@@ -2700,7 +2713,7 @@ li.stylish-list {
   height: 50%;
   width: 30%;
 }
-.respon{
+#respon{
   display: none;
 }
 .box2 {
@@ -3063,22 +3076,22 @@ li.stylish-list {
 }
 .container8{
   height: 55vh;
-  margin-left: 10%;
+  margin-left: 4%;
   margin-top: 35%;
-  width: 80%;
+  width: 90%;
 }
 
 .container5{
   height: 55vh;
-  margin-left: 10%;
+  margin-left: 4%;
   margin-top: 25%;
-  width: 80%;
+  width: 90%;
 }
 .container6{
   height: 55vh;
-  margin-left: 10%;
+  margin-left: 4%;
   margin-top: 42%;
-  width: 80%;
+  width: 90%;
 }
   .image{
     height: 70%;
@@ -3100,6 +3113,8 @@ li.stylish-list {
     z-index: -1000;
     height: 100%;
     width: 100%;
+    display: block;
+    margin-left: .2%;
   }
   #res{
     display: flex;
@@ -3108,13 +3123,23 @@ li.stylish-list {
     position: absolute;
     height: 5%;
     width: 60%;
-    background-color: #0000ff;
+    background-image: linear-gradient(65deg, #2b72ad 0, #0099ff 50%);
+    box-shadow: 0 8px 16px rgba(26, 164, 206, 0.75);
     border-radius: 50px;
     margin-left: 13%;
   }
-  #res :hover{
-    background-color:red;
+  #res a{
+    color: #fff;
   }
+ #footer-logo2{
+  width: 50%;
+  margin-top: 15%;
+  height: 20%;
+}
+#footer-logo1{
+position: relative;
+  margin-top: -95%;
+}
   #navvv{
     margin-top: 15%;
     z-index: 999;
